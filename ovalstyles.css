@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1500px;
+        background-size: 5px 5px;
+        background-image:
+          linear-gradient(to right, rgb(227, 226, 226) 1px, transparent 1px),
+          linear-gradient(to bottom, rgb(239, 239, 239) 1px, transparent 1px);
+      
+}
+
+.stem {
+    width: 10px;
+    height: 100px;
+    background-color: #7bce5d; 
+    border-radius: 50%;
+    align-items: center;
+    z-index: 5;
+    right: 100px;
+
+}
+
+
+.ascii-text {
+    color: #2e19f1; /* Change this to the desired text color */
+}
+.oval-text {
+    font-size: 36px;
+    color: #fff;
+}
+
+
+
